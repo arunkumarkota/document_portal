@@ -16,7 +16,8 @@ class CustomLogger:
         # Configure logging
         logging.basicConfig(
             filename=log_file_path,
-            format="[ %(asctime)s ] %(levelname)s %(name)s (line:%(lineno)d) - %(message)s",
+            format="[ %(asctime)s ] %(levelname)s %(name)s (line:%(lineno)d) \
+                - %(message)s",
             level=logging.INFO,
         )
 
